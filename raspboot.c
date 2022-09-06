@@ -1,6 +1,10 @@
 /*
 
-programa pra correr a solução em powerapps "Senhas OD" no SO raspbian
+Script a correr no boot.
+Script pra correr a solução em PowerApps "Senhas OD" no SO raspbian.
+Script cria dois processos, o parent process espera 1h para fazer
+kill o que o process child começou.
+
 
 v1.04
 */
